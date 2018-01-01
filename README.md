@@ -19,4 +19,5 @@ Example response of NewlyCreatedWallet (/api/controllers/monerointegrations.js:1
       { sec: 'ecf3465e8d3179b61bae41525b0bd3f8bdfc971401dd20480a348ae928871908',
         pub: '456a7340a537aa99d4f8f5a95431d5b57941b12e4b61ab049ffac286c612f6a2' },
      public_addr: '42iAp7ATEhN1b5ZPvtZvEGa7EQMx59ug8MWDDHUdVa9ebLPU24ZJBXoSjN1yYc5rDAXMXGNkxzb541msKL8ud1gZKN7Rj55' } }
-     ```
+
+```
