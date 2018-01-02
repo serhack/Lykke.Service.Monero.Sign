@@ -7,7 +7,9 @@ npm start
 ```
 
 ## Tips
-Example response of NewlyCreatedWallet (/api/controllers/monerointegrations.js:16)
+Example response of NewlyCreatedWallet (/api/controllers/monerointegrations.js:16).
+
+Seed, mnemonicString and keys will be always different!
 ```
 { seed: '4956928003caaeb30d67fa9cad70d63306fdde35e1aff69127894ff30083ed09',
   mnemonicString: 'siblings pelican chlorine daft honked badge pumpkins summon jackets pitched omega spying hippo eagle jeers vegan cuddled ruling stellar slackens rounded runway ruined silk jeers',
