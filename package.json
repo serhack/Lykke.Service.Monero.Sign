@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serhack/monero-lykke.git"
+    "url": "git+https://github.com/serhack/Lykke.Service.Monero.Sign.git"
   },
   "keywords": [
     "monero"
   ],
   "author": "SerHack",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serhack/monero-lykke/issues"
+    "url": "https://github.com/serhack/Lykke.Service.Monero.Sign/issues"
   },
-  "homepage": "https://github.com/serhack/monero-lykke#readme",
+  "homepage": "https://github.com/serhack/Lykke.Service.Monero.Sign#readme",
   "devDependencies": {
     "nodemon": "^1.14.1"
   },
