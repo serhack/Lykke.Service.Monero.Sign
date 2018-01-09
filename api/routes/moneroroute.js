@@ -1,7 +1,3 @@
-// COPYRIGHT 2017
-// SerHack
-// See LICENSE for more information
-
 'use strict';
 module.exports = function(app) {
   var monero_integrations = require('../controllers/monerointegrations');
@@ -11,4 +7,7 @@ module.exports = function(app) {
 	
   app.route('/api/sign')
    .post(monero_integrations.sign_txid);
+ 
+  app.route('/api/isalive')
+   .get(monero_integrations.is_alive);
 };
