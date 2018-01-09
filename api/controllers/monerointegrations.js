@@ -7,7 +7,7 @@ var querystring = require('querystring');
 var http = require('http');
 var monero_wallet = require('../../lib/monero_utils/monero_wallet_utils');
 var env = "production";
-var Isdebug = false;
+var isdebug = false;
 
 exports.create_wallet = function(req, res){
 	// Create a new Monero wallet based on Mymonero code
@@ -33,5 +33,5 @@ exports.sign_txid = function(req, res){
 
 exports.is_alive = function(req, res){
 	let response = {'name': 'Monero sign service', 'version' : '0.2', 'env' : env, 'Isdebug': isdebug}
-	res.send(JSON.stringify(response),200,{"Content-type":"application/json"}
+	res.send(JSON.stringify(response),200,{"Content-type":"application/json"});
 };
